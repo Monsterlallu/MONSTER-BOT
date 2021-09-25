@@ -19,8 +19,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*My creator is Ameer Suhail*
-*Creator number : wa.me/919946432377?text=Hi%20Ameer%20Suhail.%20*
-*Bot setting video : https://youtu.be/_D4ZYuUSXjs*
+*Creator number : wa.me/917736129238?text=Hi%20Monster%20Lallu.%20*
+*Bot setting video : https://youtube.com/channel/UCn2lJjIrNXouId9m2u_vZrw*
 *Githublink (Setup)  :    https://github.com/ameer-kallumthodi/pikachu*
 *Audio commads :   https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
 *Sticker commads : https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
