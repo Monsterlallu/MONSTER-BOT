@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Monsterlallu/pikachu.git /root/WhatsAsenaDuplicated
-WORKDIR git clone https://github.com/Monsterlallu/pikachu.git/root/WhatsAsenaDuplicated/
+RUN git clone https://github.com/Monsterlallu/pikachu /root/WhatsAsenaDuplicated
+WORKDIR git clone https://github.com/Monsterlallu/pikachu /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
